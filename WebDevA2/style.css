@@ -1,0 +1,410 @@
+/*to ensure that there is no pre-set padding*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/*To control the background image*/
+body {
+    min-height: 100vh;
+    height: 100%;
+    background-image: url(images/Background_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial;
+}
+
+.blue-text {
+    /*highlight important text*/
+    color: blue;
+}
+
+
+/*home Page content*/
+.home_content {
+    background-color: rgba(255, 255, 255, 0.533);
+    backdrop-filter: blur(10px);
+    color: black;
+    font-family: Arial;
+    display: block;
+    width: auto;
+    height: 620px;
+}
+
+.home_content h1 {
+    font-family: 'Times New Roman';
+    font-size: 100px;
+    padding-left: 20px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+
+.home_para {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+/*Overview Page content*/
+.overview_content {
+    background-color: rgba(255, 255, 255, 0.533);
+    backdrop-filter: blur(10px);
+    color: black;
+    font-family: Arial;
+    display: none;
+    height: auto;
+}
+
+.overview_content h1 {
+    font-family: 'Times New Roman';
+    font-size: 100px;
+    padding-left: 20px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+
+.overview_para {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+/*config overview images*/
+
+.overview_image {
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+}
+
+/*config overview links*/
+.overview_link {
+    padding-left: 20px;
+}
+
+/*Content Page content*/
+.content_page {
+    background-color: rgba(255, 255, 255, 0.533);
+    backdrop-filter: blur(10px);
+    color: black;
+    font-family: Arial;
+    display: none;
+    height: auto;
+}
+
+.content_page h1 {
+    font-family: 'Times New Roman';
+    font-size: 100px;
+    padding-left: 20px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+
+.content_page h2 {
+    font-family: 'Arial';
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.content_page h3 {
+    font-family: 'Arial';
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.content_para {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+/*config content images*/
+
+.content_image {
+    margin: 20px 0;
+    width: 200px;
+    padding-left: 20px;
+    height: 150px;
+}
+
+.storage_images {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    /* space between images */
+    margin: 20px 0;
+    width: 200px;
+    padding-left: 20px;
+    height: 150px;
+}
+
+/*config cotent links*/
+
+.content_link {
+    padding-left: 20px;
+}
+
+/*config quiz page*/
+.quizing {
+    background-color: rgba(255, 255, 255, 0.533);
+    backdrop-filter: blur(10px);
+    color: black;
+    font-family: Arial;
+    display: none;
+    height: auto;
+}
+
+.quizing h1 {
+    font-family: 'Times New Roman';
+    font-size: 100px;
+    padding-left: 20px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+
+.MCQ {
+    letter-spacing: 2px;
+}
+
+/*config quiz images*/
+.quiz_image {
+    margin: 20px 0;
+    width: 200px;
+    padding-left: 20px;
+    height: 150px;
+}
+
+/*Minigame Page content*/
+.minigame_content {
+    background-color: rgba(255, 255, 255, 0.533);
+    backdrop-filter: blur(10px);
+    color: black;
+    font-family: Arial;
+    display: none;
+    height: 700px;
+}
+
+#virusid {
+    position: relative;
+    width: 10vw;
+    transition: top 0.2s, left 0.2s;
+    /* smoother movement */
+}
+
+
+#stopbtn.newState {
+    background: green;
+    width: 150px;
+}
+
+@keyframes stopBtnFrames {
+    0% {
+        rotate: 0deg;
+    }
+
+    25% {
+        rotate: 90deg;
+    }
+
+    50% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 270deg;
+    }
+}
+
+#stopbtn.animation1 {
+    animation: stopBtnFrames 1s;
+}
+
+/*config navigation bar*/
+nav {
+    background-color: white;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    /*to remove default style*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 75px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+/*on hover, will change colour*/
+nav a:hover {
+    background-color: whitesmoke;
+
+}
+
+/*button sizes*/
+
+button {
+    width: 200px;
+    height: 50px;
+}
+
+/*moves the first item of the unordered list to the maximum right value*/
+nav li:first-child {
+    margin-right: auto;
+}
+
+/*the hamburger menu config*/
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 100;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.hamburger_menu {
+    display: none;
+}
+
+/*responsive UI section*/
+
+@media(max-width: 800px) {
+
+    .hidden-on-mobile {
+        display: none;
+    }
+
+    .hamburger_menu {
+        display: block;
+    }
+
+    /* Use auto width and remove fixed padding for mobile images */
+    .overview_image,
+    .content_image {
+        width: 90%;
+        /* Use a percentage for a fluid width */
+        height: auto;
+        /* Let the height adjust automatically */
+        padding-left: 5%;
+        /* Use percentage for mobile padding */
+        margin-left: 0;
+        /* Center images if you wish */
+        margin-right: 0;
+        display: block;
+    }
+
+    .storage_images {
+        display: flex;
+        flex-direction: column;
+        /* Stack images vertically on mobile */
+        align-items: center;
+        gap: 20px;
+        padding-left: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .storage_images img {
+        width: 90%;
+        /* Each image takes up most of the screen width */
+        height: auto;
+    }
+
+    .quiz_image {
+        width: 90%;
+        height: auto;
+        padding-left: 5%;
+    }
+
+    /* Make text elements more readable on mobile */
+    .home_content h1 {
+        font-size: 8vw;
+        padding-left: 5%;
+    }
+
+    .overview_content h1 {
+        font-size: 8vw;
+        padding-left: 5%;
+    }
+
+    .content_page h1 {
+        font-size: 8vw;
+        padding-left: 5%;
+    }
+
+    .quizing h1 {
+        font-size: 8vw;
+        padding-left: 5%;
+    }
+
+    .home_para {
+        font-size: 4vw;
+        padding-left: 5%;
+    }
+
+    .overview_para {
+        font-size: 4vw;
+        padding-left: 5%;
+    }
+
+    .content_para {
+        font-size: 4vw;
+        padding-left: 5%;
+    }
+
+    .quizing h2 {
+        font-size: 4vw;
+        padding-left: 5%;
+    }
+
+    .content_page h2 {
+        font-size: 5vw;
+        padding-left: 5%;
+    }
+
+    .content_page h3 {
+        font-size: 5vw;
+        padding-left: 5%;
+    }
+}
