@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>All about computers</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+</head>
+
+
+<body>
+
+    <nav>
+
+        <ul class="sidebar"><!--for hamburger menu-->
+            <li onclick=hideSidebar()><a href="#"><img src="images/Close_icon.jpg" alt="Close Icon"></a></li>
+            <li class="overview" onclick=showOverview()><a href="#">Overview</a></li>
+            <li class="content" onclick=showContent()><a href="#">Content</a></li>
+            <li class="Quiz" onclick=showQuiz()><a href="#">Quiz</a></li>
+            <li class="minigame" onclick=showMinigame()><a href="#">Minigame</a></li>
+        </ul>
+
+        <ul>
+            <li class="homepage" onclick=showHomepage()><a href="#">Introducting computers</a></li>
+            <li class="overview hidden-on-mobile" onclick=showOverview()><a href="#">Overview</a></li>
+            <li class="content hidden-on-mobile" onclick=showContent()><a href="#">Content</a></li>
+            <li class="Quiz hidden-on-mobile" onclick=showQuiz()><a href="#">Quiz</a></li>
+            <li class="minigame hidden-on-mobile" onclick=showMinigame()><a href="#">Minigame</a></li>
+            <li class="hamburger_menu" onclick=showSidebar()><a href="#"><img src="images/Menu_icon.jpg"
+                        alt="Menu Icon"></a></li>
+        </ul>
+
+    </nav>
+
+    <main id="pagecontainer">
+
+        <div class="home_content" id="home">
+
+            <h1>Introduction to <br>computers! </h1>
+
+            <p class="home_para">
+                Welcome to our website! Here, you'll learn all about computers — <br>
+                powerful electronic devices that help us perform a variety of tasks, from browsing the internet to
+                running complex software.<br>
+                A computer is made up of several important parts that work together. <br>
+                The CPU (Central Processing Unit) acts as the brain, processing all instructions.<br>
+                The RAM (Random Access Memory) temporarily stores data to help the computer run smoothly and
+                quickly.<br>
+                Files and programs are kept on long-term storage like a hard drive or SSD. <br>
+                These components are all connected through the motherboard, and users interact with the system using
+                devices like a keyboard, mouse, and monitor.<br>
+                Explore our site to discover more about how these parts work together to make modern computing possible!
+            </p>
+
+        </div>
+
+        <div class="overview_content" id="overview">
+
+            <h1>What are computers?</h1>
+
+            <p class="overview_para">
+                Computers are an escential part of everyone's daily lives. The first "modern" programmable computer, the
+                Zuse Z3, was invented in 1941 by Konrad Zuse in Germany.<br>
+                However, the concept of a programmable computer dates back to the mid-1800s with Charles Babbage's
+                Analytical Engine, though it was never built during his lifetime.
+                <br>The first every 'computer', the Charles Babbage's Analytical Engine conceived by Babbage and is
+                considered the first general-purpose computer concept.<br>
+                It included features like an arithmetic logic unit (ALU), memory, and the use of punch cards for input,
+                which were inspired by the Jacquard Loom.<br>
+                However, it was never fully built during Babbage's lifetime due to technological limitations of the
+                time.
+            </p>
+
+            <img class="overview_image" src="images/First_computer.jpg" alt="Charles Babbage's Analytical Engine"
+                title="Charles Babbage's Analytical Engine">
+
+            <h1>How were these computers used?</h1>
+
+            <p class="overview_para">
+                Early computers, from manual calculation tools like the abacus to the first electronic machines, were
+                primarily used for scientific and military calculations,
+                such as ballistics and code-breaking.<br>
+                Early examples of computers used in code breaking include the Colossus. <br>
+                The first large-scale electronic computer, which went into operation in 1944 at Britain's wartime
+                code-breaking headquarters at Bletchley Park.
+            </p>
+            <img class="overview_image" src="images/the_Colossus.jpg" alt="The Colossus" title="The Colossus">
+            <a class="image_link" rel="noopener" href="https://en.wikipedia.org/wiki/Colossus_computer" target="_blank">
+                <h4>Colossus computer</h4>
+            </a>
+
+            <h1>How have these computer's evolved from the past?</h1>
+
+            <p class="overview_para">
+                Computers have evoled in multiple ways. The most noticable, is the size. Old computers used to be the
+                size of literal rooms.<br>
+                The Charles Babbage's Analytical Engine for example, was 4 meters tall and 8 meters tall. Meanwhile, the
+                modern day computer is averaging 40 centimetres wide!.<br>
+                This is with the main producer of such computers being Lenovo, Apple, Acer and ASUS.
+            </p>
+
+        </div>
+
+        <div class="content_page" id="content">
+
+            <h1>Individual computer parts.</h1>
+
+            <h2>Now that you've learnt about the general history of the computer, let's learn how they operate!</h2>
+
+            <h3>The Central Processing Unit (CPU)</h3>
+
+            <p class="content_para">
+                Starting off, we have the Central Processing Unit (CPU). The CPU is the Part of the computer that
+                processes
+                data and follows instructions. <br>It is usually a complex circuit
+                made of many components that is compressed into a
+                square or rectangular package. <br>The main function of the CPU is to Processes data and follows
+                instructions; consists of an
+                <span class="blue-text">Arithmetic Logic Unit</span> and a <span class="blue-text">control unit</span>.
+                <br> When we say that a processor runs or executes
+                instructions, it
+                means that the processor follows
+                or performs instructions.<br> A series of instructions is called a program, or simply software.
+            </p>
+
+            <img class="content_image" src="images/image_CPU.jpg" alt="CPU" title="CPU">
+
+            <h3>The Arithmetic Logic Unit (ALU)</h3>
+
+            <p class="content_para">
+                The arithmetic logic unit (ALU) is apart of the CPU and it processes
+                data by performing basic mathematical and
+                logical operations such as addition,
+                subtraction, multiplication and division.
+                This unit performs the actual work of
+                performing calculations and transforming data. <br>Think of the ALU as a calculator built into the brain
+                of
+                the computer. <br> When the CPU wants to do math or comparisons, it sends the job to the ALU. <br>
+                The ALU quickly solves it and hands back the answer. Find out more in the link below.
+            </p>
+            <a class="content_link" rel="noopener" href="https://en.wikipedia.org/wiki/Arithmetic_logic_unit"
+                target="_blank">The arithmetic
+                logic unit (ALU)</a>
+
+            <h3>The Control Unit</h3>
+
+            <p class="content_para">
+                The control unit follows instructions and
+                decides when data should be stored, received
+                or transmitted by different parts of the
+                computer (including the ALU). <br>This unit makes
+                sure that data is transported to where it
+                needs to be, and that it is processed in the
+                correct order.<br> The Control Unit is like a traffic cop or orchestra conductor inside the CPU. It
+                doesn't
+                do the math itself — <br>instead, it tells all the parts what to do, when to do it, and where to send
+                the
+                results.<br> It keeps everything moving in the right order. Find out more in the link below.
+            </p>
+
+            <a class="content_link" rel="noopener" href="https://en.wikipedia.org/wiki/Control_unit" target="_blank">The
+                Control unit</a>
+
+            <h3>Extra knowledge on processors</h3>
+
+            <p class="content_para">
+                Often, a processor's speed is described by the number of instructions that the processor can
+                perform in one second.<br> For instance, a 1 MHz (megahertz) processor can perform one million
+                instructions per second <br>while a 1 GHz (gigahertz) processor can perform one billion instructions
+                per second. <br> In general, the larger the number and unit, the faster and more powerful the processor.
+                <br>
+                There are also “multi-core” processors that contain multiple processing units inside a single
+                package.<br> For instance, a “dual-core” package has two such processing units while a “quad-core”
+                package has four.<br> These “multi-core” processors can perform more than one instruction at the
+                same time, and thus are more powerful than “single-core” processors.
+            </p>
+
+            <h3>Computer Memory</h3>
+
+            <p class="content_para">
+                Whenever a computer needs to store data, it uses
+                memory. <br>Physically, memory can exist in many
+                forms, but in general, it is made up of many switches
+                arranged in a fixed order.<br> Each switch can store one
+                bit of data based on whether it is ON or OFF (i.e.
+                ON = 1, OFF = 0).<br>
+                Usually, the position of each byte is represented by a number called an address.<br>
+                This is a number that allows a computer to quickly find those switches again if it needs to read or
+                change the
+                data that is stored.<br>
+                This is similar to how a unit number is used to identify the location of each
+                residence in an HDB block. <br>
+                There are several types of memory in a computer such as, <span class="blue-text">Processor
+                    registers</span>, <span class="blue-text">Random access memory (RAM)</span> and <span
+                    class="blue-text">Read-only memory (ROM).</span>
+            </p>
+
+            <h3>Processor registers</h3>
+
+            <p class="content_para">
+                Processor registers are physically located inside
+                the processor. <br>These extremely fast but small data
+                storage spaces are used directly by the ALU and
+                control unit. <br>The number and size of processor
+                registers cannot be changed without changing
+                the processor. Find out more in the link below.
+            </p>
+
+            <a class="content_link" rel="noopener" href="https://en.wikipedia.org/wiki/Processor_register"
+                target="_blank">Processor registers </a>
+
+            <h3>Random access memory (RAM)</h3>
+
+            <p class="content_para">
+                Random access memory (RAM) or main memory
+                is where data and instructions are stored
+                temporarily so that<br> they can be quickly accessed
+                by the processor when needed. <br>For instance,
+                when an application is started, its instructions may be loaded into RAM. <br>
+                Data stored on RAM can be easily changed and is also <span class="blue-text">volatile</span>, which
+                means that it is
+                lost once the power
+                supply to the computer is interrupted.
+            </p>
+
+            <img class="content_image" src="images/image_RAM.jpg" alt="Memory" title="Memory">
+
+            <h3>Read-only memory (ROM)</h3>
+
+            <p class="content_para">
+                When we use the word “memory”, we are usually referring to RAM and not the other types
+                of memory.<br> Most desktop computers have RAM located on removable cards so that the
+                amount of RAM in the computer can be upgraded. <br>Other kinds of computers, however,
+                may have only a fixed amount of RAM that cannot be changed.<br>Read-only memory (ROM) is where data and
+                instructions that rarely need to change or
+                would be needed for a computer to start up are stored. <br>Data stored on ROM cannot be
+                easily changed and remains there regardless of whether the power supply is switched on
+                or off. <br>This makes it ideal for storing instructions that are needed before data can be loaded
+                into RAM.
+            </p>
+
+            <img class="content_image" src="images/image_ROM.jpg" alt="Read-only memory" title="Read-only memory">
+
+            <h3>Storage mediums</h3>
+
+            <p class="content_para">
+                Secondary storage is where large amounts of data are stored, such as in a hard disk
+                or hard drive. <br>Secondary storage is a way of storing large amounts of data that will not be lost
+                when
+                power supply
+                is interrupted.<br> Compared to RAM, secondary storage is usually cheaper and able to store much
+                more data.<br> It is also non-volatile, so the data that is stored
+                remains there even without a power supply.
+                <br>To avoid confusion, we typically use the word "<span class="blue-text">storage</span>" for this kind
+                of
+                storage space instead of the word "<span class="blue-text">memory</span>". <br>
+                Different storage media are used for secondary
+                storage.
+            </p>
+
+            <h3>The different kinds of storage medium</h3>
+
+            <p class="content_para">
+                There are three main types of storage mediums commonly used in computers: s (HDDs),
+                solid-state drives (SSDs), and optical storage.<br> Hard drives store data on spinning magnetic disks
+                and
+                are known for offering large storage at a low cost,<br> though they are slower and more prone to
+                damage.<br>
+                SSDs, on the other hand, use flash memory with no moving parts, <br>making them much faster and more
+                durable, but often more expensive per gigabyte. <br>Optical storage, such as CDs, DVDs, and Blu-rays,
+                use
+                lasers to read and write data on discs. <br> They are mostly used for media playback or backups, though
+                they
+                are slower and less common today.
+            </p>
+
+            <div class="storage_images">
+                <img class="content_image_SSD" src="images/image_SSD.jpg" alt="SSD" title="SSD">
+                <img class="content_image_optical" src="images/image_optical.jpg" alt="optical" title="optical">
+                <img class="content_image_harddrive" src="images/image_HARDDRIVE.jpg" alt="hard drive"
+                    title="hard drive">
+            </div>
+
+            <h3>Graphics Processing Unit</h3>
+
+            <p class="content_para">
+                A GPU, or Graphics Processing Unit, is a specialized electronic circuit that rapidly processes
+                information, <br>primarily for graphics and video, but also for tasks like artificial intelligence and
+                scientific computing.<br> GPUs are highly efficient at performing many calculations at once through a
+                process called parallel processing,<br> making them ideal for data-intensive workloads that a central
+                processing unit (CPU) might handle more slowly.
+            </p>
+
+            <img class="content_image" src="images/image_GPU.jpg" alt="Graphics Processing Unit"
+                title="Graphics Processing Unit">
+
+            <h3>The Motherboard</h3>
+
+            <p class="content_para">
+                After learning about all the different components that make up a computer. You must be wondering how
+                their combined. <br>
+                Well, that all comes down to the motherboard. The motherboard is a simple board that combines all the
+                above stated components.<br>
+                This is done with the help of data buses, there are two types, <span class="blue-text">Data bus</span>
+                and <span class="blue-text">Address bus</span>.<br>
+                The data bus Transports data between memory and processor and is <span
+                    class="blue-text">bi-directional</span>. <br>On the otherhand, the Address bus Transports required
+                memory location from processor to
+                memory and is <span class="blue-text">uni-directional</span>. <br>Furthermore, the motherboard 'talks'
+                to the GPU and storage via special slots.<br>
+                The GPU uses a PCIe slot for fast communication with the CPU. Storage devices like hard drives and SSDs
+                use
+                either SATA ports or M.2 slots.
+            </p>
+
+            <img class="content_image" src="images/image_motherboard.jpg" alt="The Motherboard" title="The Motherboard">
+
+        </div>
+
+        <div class="quizing" id="quiz">
+
+            <h1>Test your new-found knowledge with this quiz! </h1>
+
+            <h2>Let's begin!</h2>
+
+            <div class="MCQ">
+
+                <img class="quiz_image" src="images/image_motherboard.jpg" alt="The Motherboard"
+                    title="The Motherboard">
+
+                <fieldset>
+                    <legend>1. What is the name of this item?</legend>
+                    <input type="radio" name="q1" value="Random Access Memory" /> Random Access Memory<br>
+                    <input type="radio" name="q1" value="Motherboard" /> Motherboard<br>
+                    <input type="radio" name="q1" value="Mr Suen" /> Mr Suen<br>
+                    <input type="radio" name="q1" value="Read Only Memory" /> Read Only Memory<br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>2. What was The first "modern" programmable computer? </legend>
+                    <input type="radio" name="q2" value="Zuse Z3"> Zuse Z3<br>
+                    <input type="radio" name="q2" value="Charles Babbage's Analytical Engine"> Charles Babbage's
+                    Analytical Engine<br>
+                    <input type="radio" name="q2" value="The artificial m3"> The artificial m3<br>
+                    <input type="radio" name="q2" value="Zeus Z3"> Zeus Z3<br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>3. What does the CPU consist of? </legend>
+                    <input type="radio" name="q3" value="The Logic Unit"> The Logic Unit<br>
+                    <input type="radio" name="q3" value="internal storage"> internal storage Analytical Engine<br>
+                    <input type="radio" name="q3" value="Control unit"> Control unit<br>
+                    <input type="radio" name="q3" value="lightblub"> lightblub<br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>4. What was the use of older computers? </legend>
+                    <input type="radio" name="q4" value="hacking"> Hacking<br>
+                    <input type="radio" name="q4" value="codebreaking"> code-breaking<br>
+                    <input type="radio" name="q4" value="GPS"> GPS uses<br>
+                    <input type="radio" name="q4" value="Playing games"> Playing games<br>
+                </fieldset>
+
+                <img class="quiz_image" src="images/image_laptop.jpeg" alt="laptop" title="laptop">
+
+                <fieldset>
+                    <legend>5. What is the average size of a modern laptop?</legend>
+                    <input type="radio" name="q5" value="30cm"> 30cm<br>
+                    <input type="radio" name="q5" value="49cm"> 49cm<br>
+                    <input type="radio" name="q5" value="35cm"> 35cm<br>
+                    <input type="radio" name="q5" value="40cm"> 40cm<br>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>6. Was this website cool?</legend>
+                    <input type="radio" name="q6" value="yes"> yes<br>
+                    <input type="radio" name="q6" value="yes"> yes<br>
+                    <input type="radio" name="q6" value="yes"> yes<br>
+                    <input type="radio" name="q6" value="yes"> yes<br>
+                </fieldset>
+
+                <button id="btnSubmit">Submit Quiz</button>
+                <h3 id="scorebox">Not submitted</h3>
+
+            </div>
+
+        </div>
+
+        <div class="minigame_content" id="minigame">
+
+            <button id="startbtn">Start!</button>
+            <button id="stopbtn">Stop!</button>
+            <h1>Virus Defender</h1>
+            <p>Kill all the viruses before your health runs out!</p>
+            <h2 id="healthBox">Health: 20</h2>
+            <h2 id="scoreBox"></h2>
+            <img id="virusid" src="images/clicker_virus.png" alt="Virus">
+
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <img class="QR_code" src="images/QR_code.png" alt="QR code" title="QR code">
+        <p> 01_XavierThen_252760U_A2 </p>
+
+    </footer>
+
+</body>
+
+
+
+</html>
